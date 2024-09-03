@@ -1,6 +1,0 @@
-set(__QT_DEPLOY_TARGET_ElaWidgetToolsExample_FILE D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/Debug/ElaWidgetToolsExample.exe)
-set(__QT_DEPLOY_TARGET_ElaWidgetToolsExample_TYPE EXECUTABLE)
-set(__QT_DEPLOY_TARGET_ElaWidgetToolsExample_RUNTIME_DLLS D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/Debug/elawidgettoolsd.dll;D:/Qt/6.7.2/msvc2019_64/bin/Qt6Widgetsd.dll;D:/Qt/6.7.2/msvc2019_64/bin/Qt6Guid.dll;D:/Qt/6.7.2/msvc2019_64/bin/Qt6Cored.dll)
-set(__QT_DEPLOY_TARGET_elawidgettools_FILE D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/Debug/elawidgettoolsd.dll)
-set(__QT_DEPLOY_TARGET_elawidgettools_TYPE SHARED_LIBRARY)
-set(__QT_DEPLOY_TARGET_elawidgettools_RUNTIME_DLLS D:/Qt/6.7.2/msvc2019_64/bin/Qt6Widgetsd.dll;D:/Qt/6.7.2/msvc2019_64/bin/Qt6Guid.dll;D:/Qt/6.7.2/msvc2019_64/bin/Qt6Cored.dll)

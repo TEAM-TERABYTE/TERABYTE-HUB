@@ -1,9 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="include/Font/ElaAwesome.ttf">D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/Font/ElaAwesome.ttf</file>
-    <file alias="include/Image/Cirno.jpg">D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/Image/Cirno.jpg</file>
-    <file alias="include/Image/Moon.jpg">D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/Image/Moon.jpg</file>
-    <file alias="include/Image/noise.png">D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/Image/noise.png</file>
-  </qresource>
-</RCC>
-
