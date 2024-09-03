@@ -1,0 +1,985 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\src\elawidgettools_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaBaseListView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaBreadcrumbBarDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaBreadcrumbBarModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaCentralStackedWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaCheckBoxStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaComboBoxStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaComboBoxView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaCompactDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaCompactModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaDockWidgetTitleBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaDxgi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaFooterDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaFooterModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaLineEditStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaListViewStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaMenuBarStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaMenuStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaNavigationModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaNavigationNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaNavigationStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaNavigationView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaPivotModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaPivotStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaPivotView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaPlainTextEditStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaPopularCardFloater.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaProgressBarStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaRadioButtonStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaScrollBarStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaSliderStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaSpinBoxStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaStatusBarStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaSuggestBoxSearchViewContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaSuggestDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaSuggestModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaTabBarStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaTableViewStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaThemeAnimationWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaToolBarStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaToolButtonStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaTreeViewStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaWindowStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaAcrylicUrlCard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaAppBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaBreadcrumbBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaCheckBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaComboBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaContentDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaDockWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaDoubleSpinBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaDxgiManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaEventBus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaExponentialBlur.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaFlowLayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaGraphicsItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaGraphicsLineItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaGraphicsScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaGraphicsView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaIcon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaIconButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaImageCard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaInteractiveCard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaLineEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaListView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaMenuBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaMessageBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaMessageButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaMultiSelectComboBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaNavigationBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaNavigationRouter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaPivot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaPlainTextEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaPopularCard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaProgressBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaPromotionCard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaPromotionView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaPushButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaRadioButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaReminderCard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaScrollArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaScrollBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaScrollPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaScrollPageArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaSlider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaSpinBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaStatusBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaSuggestBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaTabBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaTabWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaTableView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaTheme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaToggleButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaToggleSwitch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaToolBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaToolButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaTreeView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\ElaWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaAcrylicUrlCardPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaAppBarPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaApplicationPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaBreadcrumbBarPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaComboBoxPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaContentDialogPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaDockWidgetPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaDoubleSpinBoxPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaDxgiManagerPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaEventBusPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaExponentialBlurPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaFlowLayoutPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaGraphicsItemPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaGraphicsLineItemPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaGraphicsScenePrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaGraphicsViewPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaIconButtonPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaInteractiveCardPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaLineEditPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaListViewPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaLogPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaMenuPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaMessageBarPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaMessageButtonPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaMultiSelectComboBoxPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaNavigationBarPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaNavigationRouterPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaPivotPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaPlainTextEditPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaPopularCardPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaProgressBarPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaPromotionCardPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaPromotionViewPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaPushButtonPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaRadioButtonPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaReminderCardPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaScrollBarPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaScrollPageAreaPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaScrollPagePrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaSpinBoxPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaSuggestBoxPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaTableViewPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaTextPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaThemePrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaToggleButtonPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaToggleSwitchPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaToolBarPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaToolButtonPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaTreeViewPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaWidgetPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaWindowPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\src\.qt\rcc\qrc_ElaWidgetTools.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\src\elawidgettools_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\src\elawidgettools_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\src\elawidgettools_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaBaseListView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaBreadcrumbBarDelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaBreadcrumbBarModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaCentralStackedWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaCheckBoxStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaComboBoxStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaComboBoxView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaCompactDelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaCompactModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaDockWidgetTitleBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaDxgi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaFooterDelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaFooterModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaLineEditStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaListViewStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaMenuBarStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaMenuStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaNavigationModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaNavigationNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaNavigationStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaNavigationView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaPivotModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaPivotStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaPivotView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaPlainTextEditStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaPopularCardFloater.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaProgressBarStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaRadioButtonStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaScrollBarStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaSliderStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaSpinBoxStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaStatusBarStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaSuggestBoxSearchViewContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaSuggestDelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaSuggestModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaTabBarStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaTableViewStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaThemeAnimationWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaToolBarStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaToolButtonStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaTreeViewStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\DeveloperComponents\ElaWindowStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\Def.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaAcrylicUrlCard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaAppBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaBreadcrumbBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaCheckBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaComboBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaContentDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaDockWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaDoubleSpinBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaDxgiManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaEventBus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaExponentialBlur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaFlowLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaGraphicsItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaGraphicsLineItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaGraphicsScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaGraphicsView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaIcon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaIconButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaImageCard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaInteractiveCard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaLineEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaListView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaMenuBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaMessageBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaMessageButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaMultiSelectComboBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaNavigationBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaNavigationRouter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaPivot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaPlainTextEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaPopularCard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaProgressBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaPromotionCard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaPromotionView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaPushButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaRadioButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaReminderCard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaScrollArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaScrollBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaScrollPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaScrollPageArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaSlider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaSpinBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaStatusBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaSuggestBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaTabBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaTabWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaTableView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaTheme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaToggleButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaToggleSwitch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaToolBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaToolButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaTreeView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\ElaWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\singleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaAcrylicUrlCardPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaAppBarPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaApplicationPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaBreadcrumbBarPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaComboBoxPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaContentDialogPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaDockWidgetPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaDoubleSpinBoxPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaDxgiManagerPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaEventBusPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaExponentialBlurPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaFlowLayoutPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaGraphicsItemPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaGraphicsLineItemPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaGraphicsScenePrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaGraphicsViewPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaIconButtonPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaInteractiveCardPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaLineEditPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaListViewPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaLogPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaMenuPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaMessageBarPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaMessageButtonPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaMultiSelectComboBoxPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaNavigationBarPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaNavigationRouterPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaPivotPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaPlainTextEditPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaPopularCardPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaProgressBarPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaPromotionCardPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaPromotionViewPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaPushButtonPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaRadioButtonPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaReminderCardPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaScrollBarPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaScrollPageAreaPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaScrollPagePrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaSpinBoxPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaSuggestBoxPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaTableViewPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaTextPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaThemePrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaToggleButtonPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaToggleSwitchPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaToolBarPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaToolButtonPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaTreeViewPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaWidgetPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\private\ElaWindowPrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\src\.qt\rcc\ElaWidgetTools.qrc">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\Font\ElaAwesome.ttf" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\Image\Cirno.jpg">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\Image\Moon.jpg">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\include\Image\noise.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\CMakeFiles\cb2728263aaf25306f3bd5e420585bba\qrc_ElaWidgetTools.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{08F3A050-BCC2-3BA4-857B-53BA77C67413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CF2884B0-2822-3D5C-9E96-21CB4D7547F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{CB577187-5F45-39F5-BBF5-7CD14993573A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FBB0E7C5-E0AC-3E8A-A9A5-4FF196360483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Generated">
+      <UniqueIdentifier>{D155BC2B-3EE8-319E-81F7-060CA937B15B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

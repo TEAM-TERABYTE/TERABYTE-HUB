@@ -1,0 +1,1932 @@
+{
+	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
+	"BUILD_DIR" : "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/src/elawidgettools_autogen",
+	"CMAKE_BINARY_DIR" : "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src",
+	"CMAKE_EXECUTABLE" : "D:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/CMakeLists.txt",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6Targets.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtFeature.cmake",
+		"D:/Program Files/CMake/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtFeatureCommon.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake",
+		"D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6Dependencies.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6Targets.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtFeature.cmake",
+		"D:/Program Files/CMake/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtFeatureCommon.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake",
+		"D:/Program Files/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6Dependencies.cmake",
+		"D:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+	],
+	"CMAKE_SOURCE_DIR" : "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaBaseListView.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaBaseListView.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaBreadcrumbBarDelegate.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaBreadcrumbBarDelegate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaBreadcrumbBarModel.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaBreadcrumbBarModel.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaCentralStackedWidget.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaCentralStackedWidget.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaCheckBoxStyle.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaCheckBoxStyle.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaComboBoxStyle.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaComboBoxStyle.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaComboBoxView.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaComboBoxView.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaCompactDelegate.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaCompactDelegate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaCompactModel.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaCompactModel.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaDockWidgetTitleBar.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaDockWidgetTitleBar.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaDxgi.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaDxgi.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaFooterDelegate.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaFooterDelegate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaFooterModel.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaFooterModel.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaLineEditStyle.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaLineEditStyle.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaListViewStyle.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaListViewStyle.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaMenuBarStyle.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaMenuBarStyle.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaMenuStyle.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaMenuStyle.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaNavigationModel.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaNavigationModel.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaNavigationNode.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaNavigationNode.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaNavigationStyle.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaNavigationStyle.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaNavigationView.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaNavigationView.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaPivotModel.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaPivotModel.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaPivotStyle.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaPivotStyle.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaPivotView.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaPivotView.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaPlainTextEditStyle.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaPlainTextEditStyle.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaPopularCardFloater.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaPopularCardFloater.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaProgressBarStyle.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaProgressBarStyle.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaRadioButtonStyle.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaRadioButtonStyle.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaScrollBarStyle.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaScrollBarStyle.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaSliderStyle.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaSliderStyle.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaSpinBoxStyle.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaSpinBoxStyle.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaStatusBarStyle.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaStatusBarStyle.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaSuggestBoxSearchViewContainer.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaSuggestBoxSearchViewContainer.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaSuggestDelegate.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaSuggestDelegate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaSuggestModel.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaSuggestModel.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaTabBarStyle.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaTabBarStyle.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaTableViewStyle.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaTableViewStyle.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaThemeAnimationWidget.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaThemeAnimationWidget.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaToolBarStyle.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaToolBarStyle.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaToolButtonStyle.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaToolButtonStyle.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaTreeViewStyle.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaTreeViewStyle.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaWindowStyle.h",
+			"MU",
+			"P6JGEQJS4I/moc_ElaWindowStyle.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/Def.h",
+			"MU",
+			"6YEA5652QU/moc_Def.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaAcrylicUrlCard.h",
+			"MU",
+			"6YEA5652QU/moc_ElaAcrylicUrlCard.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaAppBar.h",
+			"MU",
+			"6YEA5652QU/moc_ElaAppBar.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaApplication.h",
+			"MU",
+			"6YEA5652QU/moc_ElaApplication.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaBreadcrumbBar.h",
+			"MU",
+			"6YEA5652QU/moc_ElaBreadcrumbBar.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaCheckBox.h",
+			"MU",
+			"6YEA5652QU/moc_ElaCheckBox.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaComboBox.h",
+			"MU",
+			"6YEA5652QU/moc_ElaComboBox.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaContentDialog.h",
+			"MU",
+			"6YEA5652QU/moc_ElaContentDialog.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaDockWidget.h",
+			"MU",
+			"6YEA5652QU/moc_ElaDockWidget.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaDoubleSpinBox.h",
+			"MU",
+			"6YEA5652QU/moc_ElaDoubleSpinBox.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaDxgiManager.h",
+			"MU",
+			"6YEA5652QU/moc_ElaDxgiManager.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaEventBus.h",
+			"MU",
+			"6YEA5652QU/moc_ElaEventBus.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaExponentialBlur.h",
+			"MU",
+			"6YEA5652QU/moc_ElaExponentialBlur.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaFlowLayout.h",
+			"MU",
+			"6YEA5652QU/moc_ElaFlowLayout.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaGraphicsItem.h",
+			"MU",
+			"6YEA5652QU/moc_ElaGraphicsItem.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaGraphicsLineItem.h",
+			"MU",
+			"6YEA5652QU/moc_ElaGraphicsLineItem.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaGraphicsScene.h",
+			"MU",
+			"6YEA5652QU/moc_ElaGraphicsScene.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaGraphicsView.h",
+			"MU",
+			"6YEA5652QU/moc_ElaGraphicsView.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaIcon.h",
+			"MU",
+			"6YEA5652QU/moc_ElaIcon.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaIconButton.h",
+			"MU",
+			"6YEA5652QU/moc_ElaIconButton.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaImageCard.h",
+			"MU",
+			"6YEA5652QU/moc_ElaImageCard.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaInteractiveCard.h",
+			"MU",
+			"6YEA5652QU/moc_ElaInteractiveCard.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaLineEdit.h",
+			"MU",
+			"6YEA5652QU/moc_ElaLineEdit.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaListView.h",
+			"MU",
+			"6YEA5652QU/moc_ElaListView.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaLog.h",
+			"MU",
+			"6YEA5652QU/moc_ElaLog.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaMenu.h",
+			"MU",
+			"6YEA5652QU/moc_ElaMenu.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaMenuBar.h",
+			"MU",
+			"6YEA5652QU/moc_ElaMenuBar.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaMessageBar.h",
+			"MU",
+			"6YEA5652QU/moc_ElaMessageBar.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaMessageButton.h",
+			"MU",
+			"6YEA5652QU/moc_ElaMessageButton.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaMultiSelectComboBox.h",
+			"MU",
+			"6YEA5652QU/moc_ElaMultiSelectComboBox.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaNavigationBar.h",
+			"MU",
+			"6YEA5652QU/moc_ElaNavigationBar.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaNavigationRouter.h",
+			"MU",
+			"6YEA5652QU/moc_ElaNavigationRouter.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaPivot.h",
+			"MU",
+			"6YEA5652QU/moc_ElaPivot.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaPlainTextEdit.h",
+			"MU",
+			"6YEA5652QU/moc_ElaPlainTextEdit.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaPopularCard.h",
+			"MU",
+			"6YEA5652QU/moc_ElaPopularCard.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaProgressBar.h",
+			"MU",
+			"6YEA5652QU/moc_ElaProgressBar.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaPromotionCard.h",
+			"MU",
+			"6YEA5652QU/moc_ElaPromotionCard.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaPromotionView.h",
+			"MU",
+			"6YEA5652QU/moc_ElaPromotionView.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaPushButton.h",
+			"MU",
+			"6YEA5652QU/moc_ElaPushButton.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaRadioButton.h",
+			"MU",
+			"6YEA5652QU/moc_ElaRadioButton.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaReminderCard.h",
+			"MU",
+			"6YEA5652QU/moc_ElaReminderCard.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaScrollArea.h",
+			"MU",
+			"6YEA5652QU/moc_ElaScrollArea.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaScrollBar.h",
+			"MU",
+			"6YEA5652QU/moc_ElaScrollBar.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaScrollPage.h",
+			"MU",
+			"6YEA5652QU/moc_ElaScrollPage.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaScrollPageArea.h",
+			"MU",
+			"6YEA5652QU/moc_ElaScrollPageArea.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaSlider.h",
+			"MU",
+			"6YEA5652QU/moc_ElaSlider.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaSpinBox.h",
+			"MU",
+			"6YEA5652QU/moc_ElaSpinBox.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaStatusBar.h",
+			"MU",
+			"6YEA5652QU/moc_ElaStatusBar.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaSuggestBox.h",
+			"MU",
+			"6YEA5652QU/moc_ElaSuggestBox.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaTabBar.h",
+			"MU",
+			"6YEA5652QU/moc_ElaTabBar.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaTabWidget.h",
+			"MU",
+			"6YEA5652QU/moc_ElaTabWidget.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaTableView.h",
+			"MU",
+			"6YEA5652QU/moc_ElaTableView.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaText.h",
+			"MU",
+			"6YEA5652QU/moc_ElaText.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaTheme.h",
+			"MU",
+			"6YEA5652QU/moc_ElaTheme.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaToggleButton.h",
+			"MU",
+			"6YEA5652QU/moc_ElaToggleButton.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaToggleSwitch.h",
+			"MU",
+			"6YEA5652QU/moc_ElaToggleSwitch.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaToolBar.h",
+			"MU",
+			"6YEA5652QU/moc_ElaToolBar.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaToolButton.h",
+			"MU",
+			"6YEA5652QU/moc_ElaToolButton.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaTreeView.h",
+			"MU",
+			"6YEA5652QU/moc_ElaTreeView.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaWidget.h",
+			"MU",
+			"6YEA5652QU/moc_ElaWidget.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/ElaWindow.h",
+			"MU",
+			"6YEA5652QU/moc_ElaWindow.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/singleton.h",
+			"MU",
+			"6YEA5652QU/moc_singleton.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include/stdafx.h",
+			"MU",
+			"6YEA5652QU/moc_stdafx.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaAcrylicUrlCardPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaAcrylicUrlCardPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaAppBarPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaAppBarPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaApplicationPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaApplicationPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaBreadcrumbBarPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaBreadcrumbBarPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaComboBoxPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaComboBoxPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaContentDialogPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaContentDialogPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaDockWidgetPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaDockWidgetPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaDoubleSpinBoxPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaDoubleSpinBoxPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaDxgiManagerPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaDxgiManagerPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaEventBusPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaEventBusPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaExponentialBlurPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaExponentialBlurPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaFlowLayoutPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaFlowLayoutPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaGraphicsItemPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaGraphicsItemPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaGraphicsLineItemPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaGraphicsLineItemPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaGraphicsScenePrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaGraphicsScenePrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaGraphicsViewPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaGraphicsViewPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaIconButtonPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaIconButtonPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaInteractiveCardPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaInteractiveCardPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaLineEditPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaLineEditPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaListViewPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaListViewPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaLogPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaLogPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaMenuPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaMenuPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaMessageBarPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaMessageBarPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaMessageButtonPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaMessageButtonPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaMultiSelectComboBoxPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaMultiSelectComboBoxPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaNavigationBarPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaNavigationBarPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaNavigationRouterPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaNavigationRouterPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaPivotPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaPivotPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaPlainTextEditPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaPlainTextEditPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaPopularCardPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaPopularCardPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaProgressBarPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaProgressBarPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaPromotionCardPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaPromotionCardPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaPromotionViewPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaPromotionViewPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaPushButtonPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaPushButtonPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaRadioButtonPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaRadioButtonPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaReminderCardPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaReminderCardPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaScrollBarPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaScrollBarPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaScrollPageAreaPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaScrollPageAreaPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaScrollPagePrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaScrollPagePrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaSpinBoxPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaSpinBoxPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaSuggestBoxPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaSuggestBoxPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaTableViewPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaTableViewPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaTextPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaTextPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaThemePrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaThemePrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaToggleButtonPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaToggleButtonPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaToggleSwitchPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaToggleSwitchPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaToolBarPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaToolBarPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaToolButtonPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaToolButtonPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaTreeViewPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaTreeViewPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaWidgetPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaWidgetPrivate.cpp",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaWindowPrivate.h",
+			"MU",
+			"PGVKHOT7RA/moc_ElaWindowPrivate.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/src/elawidgettools_autogen/include",
+	"INCLUDE_DIR_Debug" : "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/src/elawidgettools_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/src/elawidgettools_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/src/elawidgettools_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/src/elawidgettools_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/src/elawidgettools_autogen/mocs_compilation.cpp",
+	"MOC_COMPILATION_FILE_Debug" : "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/src/elawidgettools_autogen/mocs_compilation_Debug.cpp",
+	"MOC_COMPILATION_FILE_MinSizeRel" : "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/src/elawidgettools_autogen/mocs_compilation_MinSizeRel.cpp",
+	"MOC_COMPILATION_FILE_RelWithDebInfo" : "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/src/elawidgettools_autogen/mocs_compilation_RelWithDebInfo.cpp",
+	"MOC_COMPILATION_FILE_Release" : "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/src/elawidgettools_autogen/mocs_compilation_Release.cpp",
+	"MOC_DEFINITIONS" : [],
+	"MOC_DEFINITIONS_Debug" : 
+	[
+		"ELAWIDGETTOOLS_LIBRARY",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_WIDGETS_LIB",
+		"UNICODE",
+		"WIN32",
+		"WIN64",
+		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
+		"_UNICODE",
+		"_WIN64",
+		"elawidgettools_EXPORTS"
+	],
+	"MOC_DEFINITIONS_MinSizeRel" : 
+	[
+		"ELAWIDGETTOOLS_LIBRARY",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_WIDGETS_LIB",
+		"UNICODE",
+		"WIN32",
+		"WIN64",
+		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
+		"_UNICODE",
+		"_WIN64",
+		"elawidgettools_EXPORTS"
+	],
+	"MOC_DEFINITIONS_RelWithDebInfo" : 
+	[
+		"ELAWIDGETTOOLS_LIBRARY",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_WIDGETS_LIB",
+		"UNICODE",
+		"WIN32",
+		"WIN64",
+		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
+		"_UNICODE",
+		"_WIN64",
+		"elawidgettools_EXPORTS"
+	],
+	"MOC_DEFINITIONS_Release" : 
+	[
+		"ELAWIDGETTOOLS_LIBRARY",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_WIDGETS_LIB",
+		"UNICODE",
+		"WIN32",
+		"WIN64",
+		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
+		"_UNICODE",
+		"_WIN64",
+		"elawidgettools_EXPORTS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : [],
+	"MOC_INCLUDES_Debug" : 
+	[
+		"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include",
+		"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private",
+		"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents",
+		"D:/Qt/6.7.2/msvc2019_64/include/QtWidgets",
+		"D:/Qt/6.7.2/msvc2019_64/include",
+		"D:/Qt/6.7.2/msvc2019_64/include/QtCore",
+		"D:/Qt/6.7.2/msvc2019_64/mkspecs/win32-msvc",
+		"D:/Qt/6.7.2/msvc2019_64/include/QtGui"
+	],
+	"MOC_INCLUDES_MinSizeRel" : 
+	[
+		"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include",
+		"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private",
+		"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents",
+		"D:/Qt/6.7.2/msvc2019_64/include/QtWidgets",
+		"D:/Qt/6.7.2/msvc2019_64/include",
+		"D:/Qt/6.7.2/msvc2019_64/include/QtCore",
+		"D:/Qt/6.7.2/msvc2019_64/mkspecs/win32-msvc",
+		"D:/Qt/6.7.2/msvc2019_64/include/QtGui"
+	],
+	"MOC_INCLUDES_RelWithDebInfo" : 
+	[
+		"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include",
+		"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private",
+		"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents",
+		"D:/Qt/6.7.2/msvc2019_64/include/QtWidgets",
+		"D:/Qt/6.7.2/msvc2019_64/include",
+		"D:/Qt/6.7.2/msvc2019_64/include/QtCore",
+		"D:/Qt/6.7.2/msvc2019_64/mkspecs/win32-msvc",
+		"D:/Qt/6.7.2/msvc2019_64/include/QtGui"
+	],
+	"MOC_INCLUDES_Release" : 
+	[
+		"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/include",
+		"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private",
+		"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents",
+		"D:/Qt/6.7.2/msvc2019_64/include/QtWidgets",
+		"D:/Qt/6.7.2/msvc2019_64/include",
+		"D:/Qt/6.7.2/msvc2019_64/include/QtCore",
+		"D:/Qt/6.7.2/msvc2019_64/mkspecs/win32-msvc",
+		"D:/Qt/6.7.2/msvc2019_64/include/QtGui"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/src/CMakeFiles/elawidgettools_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/src/CMakeFiles/elawidgettools_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/src/CMakeFiles/elawidgettools_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/src/CMakeFiles/elawidgettools_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/src/CMakeFiles/elawidgettools_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "D:/Qt/6.7.2/msvc2019_64/./bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "D:/Qt/6.7.2/msvc2019_64/./bin/uic.exe",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 7,
+	"SETTINGS_FILE" : "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/src/CMakeFiles/elawidgettools_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/src/CMakeFiles/elawidgettools_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/src/CMakeFiles/elawidgettools_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/src/CMakeFiles/elawidgettools_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/src/CMakeFiles/elawidgettools_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaBaseListView.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaBreadcrumbBarDelegate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaBreadcrumbBarModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaCentralStackedWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaCheckBoxStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaComboBoxStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaComboBoxView.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaCompactDelegate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaCompactModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaDockWidgetTitleBar.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaDxgi.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaFooterDelegate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaFooterModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaLineEditStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaListViewStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaMenuBarStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaMenuStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaNavigationModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaNavigationNode.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaNavigationStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaNavigationView.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaPivotModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaPivotStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaPivotView.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaPlainTextEditStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaPopularCardFloater.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaProgressBarStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaRadioButtonStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaScrollBarStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaSliderStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaSpinBoxStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaStatusBarStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaSuggestBoxSearchViewContainer.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaSuggestDelegate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaSuggestModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaTabBarStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaTableViewStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaThemeAnimationWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaToolBarStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaToolButtonStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaTreeViewStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/DeveloperComponents/ElaWindowStyle.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaAcrylicUrlCard.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaAppBar.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaApplication.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaBreadcrumbBar.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaCheckBox.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaComboBox.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaContentDialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaDockWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaDoubleSpinBox.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaDxgiManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaEventBus.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaExponentialBlur.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaFlowLayout.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaGraphicsItem.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaGraphicsLineItem.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaGraphicsScene.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaGraphicsView.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaIcon.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaIconButton.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaImageCard.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaInteractiveCard.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaLineEdit.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaListView.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaLog.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaMenu.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaMenuBar.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaMessageBar.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaMessageButton.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaMultiSelectComboBox.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaNavigationBar.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaNavigationRouter.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaPivot.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaPlainTextEdit.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaPopularCard.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaProgressBar.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaPromotionCard.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaPromotionView.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaPushButton.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaRadioButton.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaReminderCard.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaScrollArea.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaScrollBar.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaScrollPage.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaScrollPageArea.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaSlider.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaSpinBox.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaStatusBar.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaSuggestBox.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaTabBar.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaTabWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaTableView.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaText.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaTheme.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaToggleButton.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaToggleSwitch.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaToolBar.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaToolButton.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaTreeView.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/ElaWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaAcrylicUrlCardPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaAppBarPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaApplicationPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaBreadcrumbBarPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaComboBoxPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaContentDialogPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaDockWidgetPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaDoubleSpinBoxPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaDxgiManagerPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaEventBusPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaExponentialBlurPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaFlowLayoutPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaGraphicsItemPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaGraphicsLineItemPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaGraphicsScenePrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaGraphicsViewPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaIconButtonPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaInteractiveCardPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaLineEditPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaListViewPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaLogPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaMenuPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaMessageBarPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaMessageButtonPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaMultiSelectComboBoxPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaNavigationBarPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaNavigationRouterPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaPivotPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaPlainTextEditPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaPopularCardPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaProgressBarPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaPromotionCardPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaPromotionViewPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaPushButtonPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaRadioButtonPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaReminderCardPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaScrollBarPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaScrollPageAreaPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaScrollPagePrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaSpinBoxPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaSuggestBoxPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaTableViewPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaTextPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaThemePrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaToggleButtonPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaToggleSwitchPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaToolBarPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaToolButtonPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaTreeViewPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaWidgetPrivate.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/src/private/ElaWindowPrivate.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

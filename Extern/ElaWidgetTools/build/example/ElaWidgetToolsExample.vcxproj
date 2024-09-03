@@ -1,0 +1,672 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3A9296A4-7EE4-3FD9-898C-E3077B54E793}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ElaWidgetToolsExample</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ElaWidgetToolsExample.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ElaWidgetToolsExample</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ElaWidgetToolsExample.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ElaWidgetToolsExample</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ElaWidgetToolsExample.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ElaWidgetToolsExample</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ElaWidgetToolsExample.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ElaWidgetToolsExample</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\ElaWidgetToolsExample_autogen\include_Debug;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\..\src\include;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Qt/6.7.2/msvc2019_64/include/QtCore" /external:I "D:/Qt/6.7.2/msvc2019_64/include" /external:I "D:/Qt/6.7.2/msvc2019_64/mkspecs/win32-msvc" /external:I "D:/Qt/6.7.2/msvc2019_64/include/QtWidgets" /external:I "D:/Qt/6.7.2/msvc2019_64/include/QtGui" /utf-8 -Zc:__cplusplus -utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;QT_CORE_LIB;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_WIDGETS_LIB;QT_GUI_LIB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;QT_CORE_LIB;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_WIDGETS_LIB;QT_GUI_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\ElaWidgetToolsExample_autogen\include_Debug;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\..\src\include;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView;D:\Qt\6.7.2\msvc2019_64\include\QtCore;D:\Qt\6.7.2\msvc2019_64\include;D:\Qt\6.7.2\msvc2019_64\mkspecs\win32-msvc;D:\Qt\6.7.2\msvc2019_64\include\QtWidgets;D:\Qt\6.7.2\msvc2019_64\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\ElaWidgetToolsExample_autogen\include_Debug;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\..\src\include;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView;D:\Qt\6.7.2\msvc2019_64\include\QtCore;D:\Qt\6.7.2\msvc2019_64\include;D:\Qt\6.7.2\msvc2019_64\mkspecs\win32-msvc;D:\Qt\6.7.2\msvc2019_64\include\QtWidgets;D:\Qt\6.7.2\msvc2019_64\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target ElaWidgetToolsExample</Message>
+      <Command>setlocal
+cd "D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/example/CMakeFiles/ElaWidgetToolsExample_autogen.dir/AutogenInfo.json" Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\Debug\elawidgettoolsd.lib;D:\Qt\6.7.2\msvc2019_64\lib\Qt6Widgetsd.lib;D:\Qt\6.7.2\msvc2019_64\lib\Qt6Guid.lib;D:\Qt\6.7.2\msvc2019_64\lib\Qt6Cored.lib;mpr.lib;userenv.lib;D:\Qt\6.7.2\msvc2019_64\lib\Qt6EntryPointd.lib;shell32.lib;d3d11.lib;dxgi.lib;dxguid.lib;d3d12.lib;D3D11.lib;DXGI.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/Debug/ElaWidgetToolsExample.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/Debug/ElaWidgetToolsExample.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\ElaWidgetToolsExample_autogen\include_Release;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\..\src\include;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Qt/6.7.2/msvc2019_64/include/QtCore" /external:I "D:/Qt/6.7.2/msvc2019_64/include" /external:I "D:/Qt/6.7.2/msvc2019_64/mkspecs/win32-msvc" /external:I "D:/Qt/6.7.2/msvc2019_64/include/QtWidgets" /external:I "D:/Qt/6.7.2/msvc2019_64/include/QtGui" /utf-8 -Zc:__cplusplus -utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_WIDGETS_LIB;QT_GUI_LIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_WIDGETS_LIB;QT_GUI_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\ElaWidgetToolsExample_autogen\include_Release;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\..\src\include;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView;D:\Qt\6.7.2\msvc2019_64\include\QtCore;D:\Qt\6.7.2\msvc2019_64\include;D:\Qt\6.7.2\msvc2019_64\mkspecs\win32-msvc;D:\Qt\6.7.2\msvc2019_64\include\QtWidgets;D:\Qt\6.7.2\msvc2019_64\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\ElaWidgetToolsExample_autogen\include_Release;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\..\src\include;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView;D:\Qt\6.7.2\msvc2019_64\include\QtCore;D:\Qt\6.7.2\msvc2019_64\include;D:\Qt\6.7.2\msvc2019_64\mkspecs\win32-msvc;D:\Qt\6.7.2\msvc2019_64\include\QtWidgets;D:\Qt\6.7.2\msvc2019_64\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target ElaWidgetToolsExample</Message>
+      <Command>setlocal
+cd "D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/example/CMakeFiles/ElaWidgetToolsExample_autogen.dir/AutogenInfo.json" Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\Release\elawidgettools.lib;D:\Qt\6.7.2\msvc2019_64\lib\Qt6Widgets.lib;D:\Qt\6.7.2\msvc2019_64\lib\Qt6Gui.lib;D:\Qt\6.7.2\msvc2019_64\lib\Qt6Core.lib;mpr.lib;userenv.lib;D:\Qt\6.7.2\msvc2019_64\lib\Qt6EntryPoint.lib;shell32.lib;d3d11.lib;dxgi.lib;dxguid.lib;d3d12.lib;D3D11.lib;DXGI.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/Release/ElaWidgetToolsExample.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/Release/ElaWidgetToolsExample.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\ElaWidgetToolsExample_autogen\include_MinSizeRel;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\..\src\include;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Qt/6.7.2/msvc2019_64/include/QtCore" /external:I "D:/Qt/6.7.2/msvc2019_64/include" /external:I "D:/Qt/6.7.2/msvc2019_64/mkspecs/win32-msvc" /external:I "D:/Qt/6.7.2/msvc2019_64/include/QtWidgets" /external:I "D:/Qt/6.7.2/msvc2019_64/include/QtGui" /utf-8 -Zc:__cplusplus -utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_WIDGETS_LIB;QT_GUI_LIB;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_WIDGETS_LIB;QT_GUI_LIB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\ElaWidgetToolsExample_autogen\include_MinSizeRel;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\..\src\include;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView;D:\Qt\6.7.2\msvc2019_64\include\QtCore;D:\Qt\6.7.2\msvc2019_64\include;D:\Qt\6.7.2\msvc2019_64\mkspecs\win32-msvc;D:\Qt\6.7.2\msvc2019_64\include\QtWidgets;D:\Qt\6.7.2\msvc2019_64\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\ElaWidgetToolsExample_autogen\include_MinSizeRel;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\..\src\include;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView;D:\Qt\6.7.2\msvc2019_64\include\QtCore;D:\Qt\6.7.2\msvc2019_64\include;D:\Qt\6.7.2\msvc2019_64\mkspecs\win32-msvc;D:\Qt\6.7.2\msvc2019_64\include\QtWidgets;D:\Qt\6.7.2\msvc2019_64\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target ElaWidgetToolsExample</Message>
+      <Command>setlocal
+cd "D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/example/CMakeFiles/ElaWidgetToolsExample_autogen.dir/AutogenInfo.json" MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\MinSizeRel\elawidgettools.lib;D:\Qt\6.7.2\msvc2019_64\lib\Qt6Widgets.lib;D:\Qt\6.7.2\msvc2019_64\lib\Qt6Gui.lib;D:\Qt\6.7.2\msvc2019_64\lib\Qt6Core.lib;mpr.lib;userenv.lib;D:\Qt\6.7.2\msvc2019_64\lib\Qt6EntryPoint.lib;shell32.lib;d3d11.lib;dxgi.lib;dxguid.lib;d3d12.lib;D3D11.lib;DXGI.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/MinSizeRel/ElaWidgetToolsExample.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/MinSizeRel/ElaWidgetToolsExample.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\ElaWidgetToolsExample_autogen\include_RelWithDebInfo;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\..\src\include;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Qt/6.7.2/msvc2019_64/include/QtCore" /external:I "D:/Qt/6.7.2/msvc2019_64/include" /external:I "D:/Qt/6.7.2/msvc2019_64/mkspecs/win32-msvc" /external:I "D:/Qt/6.7.2/msvc2019_64/include/QtWidgets" /external:I "D:/Qt/6.7.2/msvc2019_64/include/QtGui" /utf-8 -Zc:__cplusplus -utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_WIDGETS_LIB;QT_GUI_LIB;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_WIDGETS_LIB;QT_GUI_LIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\ElaWidgetToolsExample_autogen\include_RelWithDebInfo;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\..\src\include;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView;D:\Qt\6.7.2\msvc2019_64\include\QtCore;D:\Qt\6.7.2\msvc2019_64\include;D:\Qt\6.7.2\msvc2019_64\mkspecs\win32-msvc;D:\Qt\6.7.2\msvc2019_64\include\QtWidgets;D:\Qt\6.7.2\msvc2019_64\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\ElaWidgetToolsExample_autogen\include_RelWithDebInfo;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\..\src\include;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView;D:\Qt\6.7.2\msvc2019_64\include\QtCore;D:\Qt\6.7.2\msvc2019_64\include;D:\Qt\6.7.2\msvc2019_64\mkspecs\win32-msvc;D:\Qt\6.7.2\msvc2019_64\include\QtWidgets;D:\Qt\6.7.2\msvc2019_64\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target ElaWidgetToolsExample</Message>
+      <Command>setlocal
+cd "D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/example/CMakeFiles/ElaWidgetToolsExample_autogen.dir/AutogenInfo.json" RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\RelWithDebInfo\elawidgettools.lib;D:\Qt\6.7.2\msvc2019_64\lib\Qt6Widgets.lib;D:\Qt\6.7.2\msvc2019_64\lib\Qt6Gui.lib;D:\Qt\6.7.2\msvc2019_64\lib\Qt6Core.lib;mpr.lib;userenv.lib;D:\Qt\6.7.2\msvc2019_64\lib\Qt6EntryPoint.lib;shell32.lib;d3d11.lib;dxgi.lib;dxguid.lib;d3d12.lib;D3D11.lib;DXGI.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/RelWithDebInfo/ElaWidgetToolsExample.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/RelWithDebInfo/ElaWidgetToolsExample.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\CMakeFiles\b347cbbda24fccf43053c4c812241306\qrc_ElaWidgetToolsExample.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Running rcc for resource ElaWidgetToolsExample</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Qt\6.7.2\msvc2019_64\.\bin\rcc.exe --output "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/example/.qt/rcc/qrc_ElaWidgetToolsExample.cpp" --name ElaWidgetToolsExample "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/example/.qt/rcc/ElaWidgetToolsExample.qrc" --no-zstd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Card\beach.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Card\classroom.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Card\dream.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Card\miku.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Cirno.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Home_Background.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_12+.svg.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_16+.svg.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_18+.svg.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_3+.svg.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_7+.svg.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\CollapsingWorld.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\DarkForest.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\LASTSTARDUST.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\Light.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\MaVieEnRose.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\NaightNavigationStar.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\RainMan.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\RunningInTheDark.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\STYXHELIX.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Moon.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Acrylic.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AnimatedIcon.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AnimatedVisualPlayer.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AnimationInterop.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AppBarButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AppBarSeparator.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AppBarToggleButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AutoSuggestBox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AutomationProperties.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Border.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\BreadcrumbBar.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Button.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CalendarDatePicker.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CalendarView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Canvas.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Checkbox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Clipboard.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ColorPaletteResources.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ColorPicker.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ComboBox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CommandBar.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CommandBarFlyout.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CompactSizing.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ConnectedAnimation.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ContentDialog.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CreateMultipleWindows.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\DataGrid.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\DatePicker.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\DropDownButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\EasingFunction.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Expander.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\FilePicker.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\FlipView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Flyout.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Grid.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\GridView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\HyperlinkButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\IconElement.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Image.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ImplicitTransition.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InfoBadge.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InfoBar.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InkCanvas.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InkToolbar.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InputValidation.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ItemsRepeater.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Line.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ListBox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ListView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\MediaPlayerElement.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\MenuBar.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\MenuFlyout.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\NavigationView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\NumberBox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PageTransition.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ParallaxView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PasswordBox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PersonPicture.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PipsPager.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Pivot.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ProgressBar.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ProgressRing.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PullToRefresh.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RadialGradientBrush.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RadioButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RadioButtons.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RatingControl.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RelativePanel.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RepeatButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RevealFocus.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RichEditBox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RichTextBlock.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ScrollViewer.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\SemanticZoom.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Shape.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Slider.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Sound.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\SplitButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\SplitView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\StackPanel.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\StandardUICommand.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\SwipeControl.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TabView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TeachingTip.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TextBlock.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TextBox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ThemeTransition.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TimePicker.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TitleBar.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ToggleButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ToggleSplitButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ToggleSwitch.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ToolTip.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TreeView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\VariableSizedWrapGrid.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Viewbox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\WebView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\XamlUICommand.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\github.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\.qt\rcc\ElaWidgetToolsExample.qrc;D:\Qt\6.7.2\msvc2019_64\.\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\.qt\rcc\qrc_ElaWidgetToolsExample.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Running rcc for resource ElaWidgetToolsExample</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Qt\6.7.2\msvc2019_64\.\bin\rcc.exe --output "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/example/.qt/rcc/qrc_ElaWidgetToolsExample.cpp" --name ElaWidgetToolsExample "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/example/.qt/rcc/ElaWidgetToolsExample.qrc" --no-zstd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Card\beach.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Card\classroom.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Card\dream.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Card\miku.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Cirno.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Home_Background.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_12+.svg.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_16+.svg.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_18+.svg.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_3+.svg.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_7+.svg.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\CollapsingWorld.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\DarkForest.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\LASTSTARDUST.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\Light.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\MaVieEnRose.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\NaightNavigationStar.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\RainMan.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\RunningInTheDark.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\STYXHELIX.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Moon.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Acrylic.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AnimatedIcon.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AnimatedVisualPlayer.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AnimationInterop.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AppBarButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AppBarSeparator.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AppBarToggleButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AutoSuggestBox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AutomationProperties.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Border.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\BreadcrumbBar.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Button.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CalendarDatePicker.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CalendarView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Canvas.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Checkbox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Clipboard.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ColorPaletteResources.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ColorPicker.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ComboBox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CommandBar.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CommandBarFlyout.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CompactSizing.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ConnectedAnimation.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ContentDialog.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CreateMultipleWindows.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\DataGrid.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\DatePicker.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\DropDownButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\EasingFunction.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Expander.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\FilePicker.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\FlipView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Flyout.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Grid.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\GridView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\HyperlinkButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\IconElement.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Image.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ImplicitTransition.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InfoBadge.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InfoBar.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InkCanvas.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InkToolbar.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InputValidation.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ItemsRepeater.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Line.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ListBox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ListView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\MediaPlayerElement.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\MenuBar.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\MenuFlyout.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\NavigationView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\NumberBox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PageTransition.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ParallaxView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PasswordBox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PersonPicture.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PipsPager.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Pivot.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ProgressBar.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ProgressRing.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PullToRefresh.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RadialGradientBrush.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RadioButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RadioButtons.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RatingControl.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RelativePanel.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RepeatButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RevealFocus.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RichEditBox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RichTextBlock.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ScrollViewer.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\SemanticZoom.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Shape.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Slider.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Sound.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\SplitButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\SplitView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\StackPanel.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\StandardUICommand.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\SwipeControl.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TabView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TeachingTip.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TextBlock.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TextBox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ThemeTransition.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TimePicker.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TitleBar.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ToggleButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ToggleSplitButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ToggleSwitch.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ToolTip.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TreeView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\VariableSizedWrapGrid.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Viewbox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\WebView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\XamlUICommand.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\github.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\.qt\rcc\ElaWidgetToolsExample.qrc;D:\Qt\6.7.2\msvc2019_64\.\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\.qt\rcc\qrc_ElaWidgetToolsExample.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Running rcc for resource ElaWidgetToolsExample</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\Qt\6.7.2\msvc2019_64\.\bin\rcc.exe --output "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/example/.qt/rcc/qrc_ElaWidgetToolsExample.cpp" --name ElaWidgetToolsExample "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/example/.qt/rcc/ElaWidgetToolsExample.qrc" --no-zstd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Card\beach.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Card\classroom.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Card\dream.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Card\miku.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Cirno.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Home_Background.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_12+.svg.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_16+.svg.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_18+.svg.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_3+.svg.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_7+.svg.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\CollapsingWorld.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\DarkForest.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\LASTSTARDUST.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\Light.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\MaVieEnRose.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\NaightNavigationStar.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\RainMan.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\RunningInTheDark.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\STYXHELIX.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Moon.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Acrylic.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AnimatedIcon.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AnimatedVisualPlayer.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AnimationInterop.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AppBarButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AppBarSeparator.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AppBarToggleButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AutoSuggestBox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AutomationProperties.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Border.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\BreadcrumbBar.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Button.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CalendarDatePicker.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CalendarView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Canvas.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Checkbox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Clipboard.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ColorPaletteResources.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ColorPicker.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ComboBox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CommandBar.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CommandBarFlyout.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CompactSizing.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ConnectedAnimation.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ContentDialog.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CreateMultipleWindows.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\DataGrid.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\DatePicker.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\DropDownButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\EasingFunction.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Expander.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\FilePicker.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\FlipView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Flyout.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Grid.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\GridView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\HyperlinkButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\IconElement.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Image.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ImplicitTransition.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InfoBadge.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InfoBar.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InkCanvas.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InkToolbar.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InputValidation.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ItemsRepeater.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Line.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ListBox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ListView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\MediaPlayerElement.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\MenuBar.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\MenuFlyout.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\NavigationView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\NumberBox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PageTransition.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ParallaxView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PasswordBox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PersonPicture.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PipsPager.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Pivot.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ProgressBar.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ProgressRing.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PullToRefresh.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RadialGradientBrush.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RadioButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RadioButtons.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RatingControl.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RelativePanel.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RepeatButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RevealFocus.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RichEditBox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RichTextBlock.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ScrollViewer.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\SemanticZoom.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Shape.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Slider.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Sound.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\SplitButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\SplitView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\StackPanel.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\StandardUICommand.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\SwipeControl.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TabView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TeachingTip.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TextBlock.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TextBox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ThemeTransition.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TimePicker.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TitleBar.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ToggleButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ToggleSplitButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ToggleSwitch.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ToolTip.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TreeView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\VariableSizedWrapGrid.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Viewbox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\WebView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\XamlUICommand.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\github.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\.qt\rcc\ElaWidgetToolsExample.qrc;D:\Qt\6.7.2\msvc2019_64\.\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\.qt\rcc\qrc_ElaWidgetToolsExample.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Running rcc for resource ElaWidgetToolsExample</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Qt\6.7.2\msvc2019_64\.\bin\rcc.exe --output "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/example/.qt/rcc/qrc_ElaWidgetToolsExample.cpp" --name ElaWidgetToolsExample "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/example/.qt/rcc/ElaWidgetToolsExample.qrc" --no-zstd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Card\beach.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Card\classroom.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Card\dream.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Card\miku.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Cirno.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Home_Background.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_12+.svg.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_16+.svg.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_18+.svg.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_3+.svg.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_7+.svg.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\CollapsingWorld.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\DarkForest.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\LASTSTARDUST.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\Light.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\MaVieEnRose.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\NaightNavigationStar.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\RainMan.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\RunningInTheDark.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\STYXHELIX.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Moon.jpg;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Acrylic.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AnimatedIcon.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AnimatedVisualPlayer.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AnimationInterop.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AppBarButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AppBarSeparator.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AppBarToggleButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AutoSuggestBox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AutomationProperties.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Border.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\BreadcrumbBar.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Button.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CalendarDatePicker.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CalendarView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Canvas.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Checkbox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Clipboard.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ColorPaletteResources.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ColorPicker.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ComboBox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CommandBar.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CommandBarFlyout.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CompactSizing.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ConnectedAnimation.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ContentDialog.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CreateMultipleWindows.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\DataGrid.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\DatePicker.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\DropDownButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\EasingFunction.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Expander.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\FilePicker.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\FlipView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Flyout.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Grid.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\GridView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\HyperlinkButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\IconElement.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Image.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ImplicitTransition.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InfoBadge.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InfoBar.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InkCanvas.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InkToolbar.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InputValidation.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ItemsRepeater.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Line.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ListBox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ListView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\MediaPlayerElement.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\MenuBar.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\MenuFlyout.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\NavigationView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\NumberBox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PageTransition.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ParallaxView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PasswordBox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PersonPicture.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PipsPager.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Pivot.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ProgressBar.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ProgressRing.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PullToRefresh.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RadialGradientBrush.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RadioButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RadioButtons.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RatingControl.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RelativePanel.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RepeatButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RevealFocus.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RichEditBox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RichTextBlock.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ScrollViewer.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\SemanticZoom.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Shape.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Slider.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Sound.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\SplitButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\SplitView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\StackPanel.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\StandardUICommand.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\SwipeControl.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TabView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TeachingTip.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TextBlock.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TextBox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ThemeTransition.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TimePicker.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TitleBar.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ToggleButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ToggleSplitButton.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ToggleSwitch.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ToolTip.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TreeView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\VariableSizedWrapGrid.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Viewbox.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\WebView.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\XamlUICommand.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\github.png;D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\.qt\rcc\ElaWidgetToolsExample.qrc;D:\Qt\6.7.2\msvc2019_64\.\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\.qt\rcc\qrc_ElaWidgetToolsExample.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/example/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SD:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools" "-BD:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build" --check-stamp-file "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/example/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files\CMake\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;D:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\Qt6Config.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\Qt6ConfigExtras.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\Qt6ConfigVersion.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\Qt6ConfigVersionImpl.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\Qt6Dependencies.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\Qt6Targets.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\Qt6VersionlessTargets.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtFeature.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtFeatureCommon.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicAppleHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicCMakeHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicCMakeVersionHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicDependencyHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicExternalProjectHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicFinalizerHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicFindPackageHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicPluginHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicTargetHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicTestHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicToolHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicWalkLibsHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreConfigureFileTemplate.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/example/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SD:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools" "-BD:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build" --check-stamp-file "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/example/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files\CMake\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;D:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\Qt6Config.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\Qt6ConfigExtras.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\Qt6ConfigVersion.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\Qt6ConfigVersionImpl.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\Qt6Dependencies.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\Qt6Targets.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\Qt6VersionlessTargets.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtFeature.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtFeatureCommon.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicAppleHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicCMakeHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicCMakeVersionHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicDependencyHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicExternalProjectHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicFinalizerHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicFindPackageHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicPluginHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicTargetHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicTestHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicToolHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicWalkLibsHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreConfigureFileTemplate.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/example/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SD:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools" "-BD:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build" --check-stamp-file "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/example/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Program Files\CMake\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;D:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\Qt6Config.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\Qt6ConfigExtras.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\Qt6ConfigVersion.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\Qt6ConfigVersionImpl.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\Qt6Dependencies.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\Qt6Targets.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\Qt6VersionlessTargets.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtFeature.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtFeatureCommon.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicAppleHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicCMakeHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicCMakeVersionHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicDependencyHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicExternalProjectHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicFinalizerHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicFindPackageHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicPluginHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicTargetHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicTestHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicToolHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicWalkLibsHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreConfigureFileTemplate.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/example/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SD:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools" "-BD:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build" --check-stamp-file "D:/Apps/VS/TERABYTE HUB/Extern/ElaWidgetTools/build/example/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Program Files\CMake\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;D:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\Qt6Config.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\Qt6ConfigExtras.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\Qt6ConfigVersion.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\Qt6ConfigVersionImpl.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\Qt6Dependencies.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\Qt6Targets.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\Qt6VersionlessTargets.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtFeature.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtFeatureCommon.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicAppleHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicCMakeHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicCMakeVersionHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicDependencyHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicExternalProjectHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicFinalizerHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicFindPackageHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicPluginHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicTargetHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicTestHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicToolHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6\QtPublicWalkLibsHelpers.cmake;D:\Qt\6.7.2\msvc2019_64\lib\cmake\Qt6Core\Qt6CoreConfigureFileTemplate.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\ElaWidgetToolsExample_autogen\mocs_compilation_Debug.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_About.cpp" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_About.h" />
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_BaseComponents.cpp" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_BaseComponents.h" />
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_BasePage.cpp" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_BasePage.h" />
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_Card.cpp" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_Card.h" />
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_ElaScreen.cpp" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_ElaScreen.h" />
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_Home.cpp" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_Home.h" />
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_Icon.cpp" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_Icon.h" />
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_LogWidget.cpp" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_LogWidget.h" />
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_Navigation.cpp" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_Navigation.h" />
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_Popup.cpp" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_Popup.h" />
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_UpdateWidget.cpp" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_UpdateWidget.h" />
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_View.cpp" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_View.h" />
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView\T_IconDelegate.cpp" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView\T_IconDelegate.h" />
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView\T_IconModel.cpp" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView\T_IconModel.h" />
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView\T_ListViewModel.cpp" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView\T_ListViewModel.h" />
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView\T_LogModel.cpp" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView\T_LogModel.h" />
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView\T_TableViewModel.cpp" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView\T_TableViewModel.h" />
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView\T_TreeItem.cpp" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView\T_TreeItem.h" />
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView\T_TreeViewModel.cpp" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView\T_TreeViewModel.h" />
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\main.cpp" />
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\mainwindow.cpp" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\mainwindow.h" />
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\.qt\rcc\qrc_ElaWidgetToolsExample.cpp">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\.qt\rcc\ElaWidgetToolsExample.qrc" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Card\beach.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Card\classroom.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Card\dream.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Card\miku.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Cirno.jpg" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Home_Background.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_12+.svg.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_16+.svg.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_18+.svg.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_3+.svg.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_7+.svg.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\CollapsingWorld.jpg" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\DarkForest.jpg" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\LASTSTARDUST.jpg" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\Light.jpg" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\MaVieEnRose.jpg" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\NaightNavigationStar.jpg" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\RainMan.jpg" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\RunningInTheDark.jpg" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\STYXHELIX.jpg" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Moon.jpg" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Acrylic.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AnimatedIcon.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AnimatedVisualPlayer.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AnimationInterop.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AppBarButton.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AppBarSeparator.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AppBarToggleButton.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AutoSuggestBox.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AutomationProperties.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Border.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\BreadcrumbBar.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Button.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CalendarDatePicker.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CalendarView.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Canvas.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Checkbox.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Clipboard.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ColorPaletteResources.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ColorPicker.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ComboBox.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CommandBar.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CommandBarFlyout.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CompactSizing.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ConnectedAnimation.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ContentDialog.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CreateMultipleWindows.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\DataGrid.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\DatePicker.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\DropDownButton.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\EasingFunction.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Expander.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\FilePicker.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\FlipView.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Flyout.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Grid.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\GridView.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\HyperlinkButton.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\IconElement.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Image.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ImplicitTransition.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InfoBadge.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InfoBar.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InkCanvas.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InkToolbar.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InputValidation.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ItemsRepeater.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Line.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ListBox.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ListView.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\MediaPlayerElement.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\MenuBar.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\MenuFlyout.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\NavigationView.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\NumberBox.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PageTransition.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ParallaxView.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PasswordBox.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PersonPicture.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PipsPager.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Pivot.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ProgressBar.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ProgressRing.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PullToRefresh.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RadialGradientBrush.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RadioButton.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RadioButtons.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RatingControl.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RelativePanel.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RepeatButton.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RevealFocus.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RichEditBox.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RichTextBlock.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ScrollViewer.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\SemanticZoom.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Shape.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Slider.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Sound.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\SplitButton.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\SplitView.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\StackPanel.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\StandardUICommand.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\SwipeControl.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TabView.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TeachingTip.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TextBlock.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TextBox.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ThemeTransition.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TimePicker.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TitleBar.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ToggleButton.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ToggleSplitButton.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ToggleSwitch.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ToolTip.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TreeView.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\VariableSizedWrapGrid.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Viewbox.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\WebView.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\XamlUICommand.png" />
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\github.png" />
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\ElaWidgetToolsExample_autogen\mocs_compilation_Release.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\ElaWidgetToolsExample_autogen\mocs_compilation_MinSizeRel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\ElaWidgetToolsExample_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\ZERO_CHECK.vcxproj">
+      <Project>{A8C2CC78-86F6-353D-83B1-DF126617DC10}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\src\elawidgettools.vcxproj">
+      <Project>{C8940375-E357-3BFD-8A6F-DA5C696E2C83}</Project>
+      <Name>elawidgettools</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

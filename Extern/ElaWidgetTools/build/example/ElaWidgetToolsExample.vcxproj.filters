@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\ElaWidgetToolsExample_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_About.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_BaseComponents.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_BasePage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_Card.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_ElaScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_Home.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_Icon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_LogWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_Navigation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_Popup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_UpdateWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_View.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView\T_IconDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView\T_IconModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView\T_ListViewModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView\T_LogModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView\T_TableViewModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView\T_TreeItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView\T_TreeViewModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\.qt\rcc\qrc_ElaWidgetToolsExample.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\ElaWidgetToolsExample_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\ElaWidgetToolsExample_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\ElaWidgetToolsExample_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_About.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_BaseComponents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_BasePage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_Card.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_ElaScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_Home.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_Icon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_LogWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_Navigation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_Popup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_UpdateWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ExamplePage\T_View.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView\T_IconDelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView\T_IconModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView\T_ListViewModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView\T_LogModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView\T_TableViewModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView\T_TreeItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\ModelView\T_TreeViewModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\example\.qt\rcc\ElaWidgetToolsExample.qrc">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Card\beach.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Card\classroom.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Card\dream.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Card\miku.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Cirno.jpg">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Home_Background.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_12+.svg.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_16+.svg.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_18+.svg.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_3+.svg.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\IARC\IARC_7+.svg.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\CollapsingWorld.jpg">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\DarkForest.jpg">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\LASTSTARDUST.jpg">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\Light.jpg">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\MaVieEnRose.jpg">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\NaightNavigationStar.jpg">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\RainMan.jpg">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\RunningInTheDark.jpg">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Model\STYXHELIX.jpg">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\Moon.jpg">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Acrylic.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AnimatedIcon.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AnimatedVisualPlayer.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AnimationInterop.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AppBarButton.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AppBarSeparator.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AppBarToggleButton.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AutoSuggestBox.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\AutomationProperties.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Border.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\BreadcrumbBar.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Button.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CalendarDatePicker.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CalendarView.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Canvas.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Checkbox.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Clipboard.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ColorPaletteResources.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ColorPicker.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ComboBox.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CommandBar.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CommandBarFlyout.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CompactSizing.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ConnectedAnimation.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ContentDialog.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\CreateMultipleWindows.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\DataGrid.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\DatePicker.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\DropDownButton.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\EasingFunction.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Expander.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\FilePicker.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\FlipView.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Flyout.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Grid.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\GridView.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\HyperlinkButton.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\IconElement.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Image.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ImplicitTransition.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InfoBadge.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InfoBar.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InkCanvas.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InkToolbar.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\InputValidation.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ItemsRepeater.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Line.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ListBox.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ListView.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\MediaPlayerElement.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\MenuBar.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\MenuFlyout.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\NavigationView.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\NumberBox.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PageTransition.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ParallaxView.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PasswordBox.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PersonPicture.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PipsPager.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Pivot.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ProgressBar.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ProgressRing.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\PullToRefresh.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RadialGradientBrush.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RadioButton.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RadioButtons.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RatingControl.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RelativePanel.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RepeatButton.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RevealFocus.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RichEditBox.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\RichTextBlock.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ScrollViewer.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\SemanticZoom.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Shape.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Slider.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Sound.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\SplitButton.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\SplitView.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\StackPanel.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\StandardUICommand.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\SwipeControl.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TabView.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TeachingTip.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TextBlock.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TextBox.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ThemeTransition.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TimePicker.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TitleBar.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ToggleButton.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ToggleSplitButton.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ToggleSwitch.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\ToolTip.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\TreeView.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\VariableSizedWrapGrid.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\Viewbox.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\WebView.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\control\XamlUICommand.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\Resource\Image\github.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\build\CMakeFiles\b347cbbda24fccf43053c4c812241306\qrc_ElaWidgetToolsExample.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Apps\VS\TERABYTE HUB\Extern\ElaWidgetTools\example\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{08F3A050-BCC2-3BA4-857B-53BA77C67413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{CF2884B0-2822-3D5C-9E96-21CB4D7547F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{CB577187-5F45-39F5-BBF5-7CD14993573A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FBB0E7C5-E0AC-3E8A-A9A5-4FF196360483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Generated">
+      <UniqueIdentifier>{D155BC2B-3EE8-319E-81F7-060CA937B15B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
